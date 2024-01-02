@@ -31,6 +31,8 @@ p {
   margin-right: 2rem;
   margin-left: 2rem;
   line-height: 1.5;
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
 
 h2 {
@@ -41,6 +43,17 @@ h2 {
   padding-bottom: 20px;
   margin-right: 10rem;
   margin-left: 2rem;
+}
+
+.h1_forside {
+  color: #619b8a;
+  text-decoration: none;
+  font-family: inter;
+  font-size: 30px;
+  padding-bottom: 20px;
+  margin-right: 10rem;
+  margin-left: 2rem;
+  text-align: center;
 }
 
 /*font på forside*/
@@ -57,7 +70,7 @@ h2 {
 }
 
 .outline {
-  text-shadow: -1px 0 #619b8a, 0 1px #619b8a, 1px 0 #619b8a, 0 -1px #619b8a;
+  text-shadow: -15px 0 #619b8a, 0 1px #619b8a, 1px 0 #619b8a, 0 -1px #619b8a;
 }
 
 /*Forside på potofolio*/
@@ -199,6 +212,8 @@ h2 {
     margin-right: 70px;
     margin-left: 70px;
     gap: 20px;
+    padding-bottom: 60px;
+    padding-top: 20px;
   }
 }
 
