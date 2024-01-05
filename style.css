@@ -223,6 +223,15 @@ h3 {
   }
 }
 
+/*Video på siderne*/
+@media (min-width: 800px) {
+  .video_grid {
+    width: 500px;
+    height: 500px;
+    margin-top: 20%;
+  }
+}
+
 /* Layout om_mig*/
 @media (min-width: 800px) {
   .om_mig_grid {
