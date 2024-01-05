@@ -223,12 +223,62 @@ h3 {
   }
 }
 
+/*Layout af knapper*/
+@media (min-width: 800px) {
+  .link_knap {
+    display: grid;
+    grid-template-columns: 1fr;
+    top: 110%;
+    left: 2%;
+    width: 12%;
+    background-size: cover;
+    position: absolute;
+  }
+}
+
+@media (min-width: 800px) {
+  .pitch_knap {
+    display: grid;
+    grid-template-columns: 1fr;
+    top: 110%;
+    left: 10%;
+    width: 12%;
+    background-size: cover;
+    position: absolute;
+  }
+}
+
+@media (min-width: 800px) {
+  .video_knap {
+    display: grid;
+    grid-template-columns: 1fr;
+    top: 110%;
+    left: 10%;
+    width: 12%;
+    background-size: cover;
+    position: absolute;
+  }
+}
+
+@media (min-width: 800px) {
+  .link2_knap {
+    display: grid;
+    grid-template-columns: 1fr;
+    top: 200%;
+    left: 2%;
+    width: 12%;
+    background-size: cover;
+    position: absolute;
+  }
+}
+
 /*Video på siderne*/
 @media (min-width: 800px) {
   .video_grid {
     width: 500px;
     height: 500px;
     margin-top: 20%;
+    margin-left: 10%;
   }
 }
 
