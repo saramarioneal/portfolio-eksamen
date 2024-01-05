@@ -215,6 +215,14 @@ h3 {
   }
 }
 
+/*Layout introduktion til de forskellige undersider*/
+@media (min-width: 800px) {
+  .intro_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Layout om_mig*/
 @media (min-width: 800px) {
   .om_mig_grid {
@@ -293,7 +301,7 @@ h3 {
   margin-top: 2rem;
 }
 
-/*Layout animation*/
+/*Layout 0_4 animation*/
 @media (min-width: 800px) {
   .animation_grid,
   .animation_grid2 {
@@ -319,4 +327,26 @@ img {
   margin-top: 2rem;
   margin-bottom: -20rem;
   margin-left: 5rem;
+}
+
+/*Layout 05_indhold*/
+@media (min-width: 800px) {
+  .indhold_grid,
+  .indhold_grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 70px;
+    margin-left: 70px;
+    gap: 20px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+  }
+}
+
+.indhold_col,
+.indhold_col2 {
+  display: grid;
+  grid-column: 1 / span 1;
+  border-right: 2px solid white;
+  margin-top: 2rem;
 }
