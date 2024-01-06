@@ -115,7 +115,7 @@ h3 {
 }
 
 /*Forside på potofolio*/
-.vertical-text {
+.tekst_forside {
   font-family: inter;
   font-weight: 400;
   font-style: normal;
@@ -124,7 +124,7 @@ h3 {
   margin-top: -1rem;
   color: #619b8a;
 }
-.vertical-text2 {
+.velkommen_tekst {
   transform: rotate(360deg);
   font-family: inter;
   right: 0;
@@ -358,6 +358,12 @@ h3 {
   grid-column: 1 / span 1;
   border-right: 2px solid white;
   margin-top: 2rem;
+}
+
+.billede_03ux {
+  margin-top: 2rem;
+  margin-bottom: -20rem;
+  margin-left: 5rem;
 }
 
 /*Layout 0_4 animation*/
