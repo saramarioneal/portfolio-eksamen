@@ -360,12 +360,6 @@ h3 {
   margin-top: 2rem;
 }
 
-.billede_03ux {
-  margin-top: 2rem;
-  margin-bottom: -20rem;
-  margin-left: 5rem;
-}
-
 /*Layout 0_4 animation*/
 @media (min-width: 800px) {
   .animation_grid,
