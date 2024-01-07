@@ -225,6 +225,18 @@ h3 {
 
 /*Layout af knapper*/
 @media (min-width: 800px) {
+  .link_knap_02 {
+    display: grid;
+    grid-template-columns: 1fr;
+    top: 103%;
+    left: 5%;
+    width: 10%;
+    background-size: cover;
+    position: absolute;
+  }
+}
+
+@media (min-width: 800px) {
   .link_knap {
     display: grid;
     grid-template-columns: 1fr;
@@ -339,7 +351,7 @@ h3 {
   .se_mere_knap_05 {
     display: grid;
     grid-template-columns: 1fr;
-    top: 195%;
+    top: 197%;
     left: 15%;
     width: 10%;
     background-size: cover;
@@ -351,7 +363,7 @@ h3 {
   .link_knap_05_re {
     display: grid;
     grid-template-columns: 1fr;
-    top: 195%;
+    top: 197%;
     left: 5%;
     width: 10%;
     background-size: cover;
