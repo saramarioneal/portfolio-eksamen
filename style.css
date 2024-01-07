@@ -291,6 +291,18 @@ h3 {
     margin-left: 70px;
     gap: 20px;
   }
+
+  .om_mig2_col {
+    display: grid;
+    grid-column: 2 / span 1;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+  }
+
+  .om_mig2_col img {
+    width: 900px;
+  }
 }
 
 .om_mig_col {
@@ -300,12 +312,8 @@ h3 {
   margin-top: 2rem;
 }
 
-.om_mig2_col {
-  display: grid;
-  grid-column: 2 / span 1;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-top: 2rem;
+.om_mig2_col img {
+  width: 500px;
 }
 
 /*Layout 02_web*/
