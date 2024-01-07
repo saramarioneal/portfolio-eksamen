@@ -228,9 +228,9 @@ h3 {
   .link_knap {
     display: grid;
     grid-template-columns: 1fr;
-    top: 110%;
-    left: 2%;
-    width: 12%;
+    top: 108%;
+    left: 5%;
+    width: 10%;
     background-size: cover;
     position: absolute;
   }
@@ -240,9 +240,21 @@ h3 {
   .pitch_knap {
     display: grid;
     grid-template-columns: 1fr;
-    top: 110%;
-    left: 10%;
-    width: 12%;
+    top: 108%;
+    left: 15%;
+    width: 10%;
+    background-size: cover;
+    position: absolute;
+  }
+}
+
+@media (min-width: 800px) {
+  .se_mere_knap {
+    display: grid;
+    grid-template-columns: 1fr;
+    top: 108%;
+    left: 25%;
+    width: 10%;
     background-size: cover;
     position: absolute;
   }
@@ -267,6 +279,69 @@ h3 {
     top: 200%;
     left: 2%;
     width: 12%;
+    background-size: cover;
+    position: absolute;
+  }
+}
+
+/*Layout af 04_animation knapper*/
+
+@media (min-width: 800px) {
+  .link_knap_04 {
+    display: grid;
+    grid-template-columns: 1fr;
+    top: 112%;
+    left: 5%;
+    width: 10%;
+    background-size: cover;
+    position: absolute;
+  }
+}
+
+@media (min-width: 800px) {
+  .se_mere_knap_04 {
+    display: grid;
+    grid-template-columns: 1fr;
+    top: 112%;
+    left: 15%;
+    width: 10%;
+    background-size: cover;
+    position: absolute;
+  }
+}
+
+/*Layout af 05_indhold knapper*/
+@media (min-width: 800px) {
+  .link_knap_05 {
+    display: grid;
+    grid-template-columns: 1fr;
+    top: 112%;
+    left: 5%;
+    width: 10%;
+    background-size: cover;
+    position: absolute;
+  }
+}
+
+@media (min-width: 800px) {
+  .video_knap_05 {
+    display: grid;
+    grid-template-columns: 1fr;
+    top: 112%;
+    left: 15%;
+    width: 10%;
+    background-size: cover;
+    position: absolute;
+  }
+}
+
+@media (min-width: 800px) {
+  .se_mere_knap_05 {
+    display: grid;
+    grid-template-columns: 1fr;
+    top: 112%;
+    left: 25%;
+    width: 10%;
     background-size: cover;
     position: absolute;
   }
@@ -393,7 +468,7 @@ h3 {
 img {
   margin-top: 2rem;
   margin-bottom: -20rem;
-  margin-left: 5rem;
+  margin-left: 2rem;
 }
 
 /*Layout 05_indhold*/
