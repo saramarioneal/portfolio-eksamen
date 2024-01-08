@@ -1,4 +1,4 @@
-/*Layout*/
+/*Style*/
 * {
   padding: 0;
   margin: 0;
@@ -65,18 +65,7 @@ h3 {
   margin-bottom: 0rem;
 }
 
-.h1_forside {
-  color: #619b8a;
-  text-decoration: none;
-  font-family: inter;
-  font-size: 30px;
-  padding-bottom: 20px;
-  margin-right: 10rem;
-  margin-left: 2rem;
-  text-align: center;
-}
-
-/*font på forside*/
+/*Font på forside*/
 
 .h1_forside {
   font-family: inter;
@@ -94,27 +83,6 @@ h3 {
   text-shadow: -15px 0 #619b8a, 0 1px #619b8a, 1px 0 #619b8a, 0 -1px #619b8a;
 }
 
-.tekst_ekstra {
-  color: #619b8a;
-  font-family: inter;
-  font-size: 10px;
-  margin-top: 30px;
-  margin-bottom: px;
-  margin-left: 260px;
-  margin-right: 20px;
-}
-
-.tekst_ekstra2 {
-  color: #619b8a;
-  font-family: inter;
-  font-size: 10px;
-  margin-top: 30px;
-  margin-bottom: px;
-  margin-left: 260px;
-  margin-right: 20px;
-}
-
-/*Forside på potofolio*/
 .tekst_forside {
   font-family: inter;
   font-weight: 400;
@@ -223,7 +191,7 @@ h3 {
   }
 }
 
-/*Layout af knapper*/
+/*Layout af knapper 02_web*/
 @media (min-width: 800px) {
   .link_knap_02 {
     display: grid;
@@ -236,8 +204,10 @@ h3 {
   }
 }
 
+/*Layout af knapper 03_web*/
+
 @media (min-width: 800px) {
-  .link_knap {
+  .link_knap_03 {
     display: grid;
     grid-template-columns: 1fr;
     top: 108%;
@@ -261,36 +231,12 @@ h3 {
 }
 
 @media (min-width: 800px) {
-  .se_mere_knap {
+  .se_mere_knap_03 {
     display: grid;
     grid-template-columns: 1fr;
     top: 108%;
     left: 25%;
     width: 10%;
-    background-size: cover;
-    position: absolute;
-  }
-}
-
-@media (min-width: 800px) {
-  .video_knap {
-    display: grid;
-    grid-template-columns: 1fr;
-    top: 110%;
-    left: 10%;
-    width: 12%;
-    background-size: cover;
-    position: absolute;
-  }
-}
-
-@media (min-width: 800px) {
-  .link2_knap {
-    display: grid;
-    grid-template-columns: 1fr;
-    top: 200%;
-    left: 2%;
-    width: 12%;
     background-size: cover;
     position: absolute;
   }
