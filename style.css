@@ -327,7 +327,7 @@ h3 {
   .link_knap_05 {
     display: grid;
     grid-template-columns: 1fr;
-    top: 105%;
+    top: 109%;
     left: 5%;
     width: 10%;
     background-size: cover;
@@ -339,7 +339,7 @@ h3 {
   .video_knap_05 {
     display: grid;
     grid-template-columns: 1fr;
-    top: 105%;
+    top: 109%;
     left: 15%;
     width: 10%;
     background-size: cover;
@@ -351,7 +351,7 @@ h3 {
   .se_mere_knap_05 {
     display: grid;
     grid-template-columns: 1fr;
-    top: 197%;
+    top: 216%;
     left: 15%;
     width: 10%;
     background-size: cover;
@@ -363,7 +363,7 @@ h3 {
   .link_knap_05_re {
     display: grid;
     grid-template-columns: 1fr;
-    top: 197%;
+    top: 216%;
     left: 5%;
     width: 10%;
     background-size: cover;
