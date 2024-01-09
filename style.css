@@ -515,7 +515,7 @@ img {
 @media (max-width: 800px) {
   .link_knap_02 img {
     width: 500px;
-    margin-top: 500px;
+    margin-top: 20px;
   }
 }
 
