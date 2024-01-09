@@ -297,7 +297,7 @@ h3 {
   .se_mere_knap_05 {
     display: grid;
     grid-template-columns: 1fr;
-    top: 216%;
+    top: 211%;
     left: 15%;
     width: 10%;
     background-size: cover;
@@ -309,7 +309,7 @@ h3 {
   .link_knap_05_re {
     display: grid;
     grid-template-columns: 1fr;
-    top: 216%;
+    top: 211%;
     left: 5%;
     width: 10%;
     background-size: cover;
